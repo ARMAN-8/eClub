@@ -1,0 +1,63 @@
+/*Get started*/
+
+nav a {
+    text-decoration: none;
+}
+.text-green-1000 {
+    color: #aaca48;
+}
+.green-bg {
+    background-color: #aaca48;
+}
+
+.section-1 {
+    background-color: #353333;
+}
+
+footer {
+    background-color: #353333;
+    color: #fff;
+}
+
+/*accordion*/
+
+.accordion {
+    background-color: transparent;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: 3s;
+}
+
+/*.active, .accordion:hover {
+    background-color: #ccc;
+}*/
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: transparent;
+    overflow: hidden;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.accordion:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    /*content: '\f007';*/ /* Unicode character for "plus" sign (+) */
+    font-size: 23px;
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
