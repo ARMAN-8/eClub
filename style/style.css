@@ -6,12 +6,16 @@ nav a {
 .text-green-1000 {
     color: #aaca48;
 }
-.green-bg {
-    background-color: #aaca48;
+
+.bg-gold {
+    background: #FFD700;
+}
+.color-gold {
+    color: #DAA520;
 }
 
 .section-1 {
-    background-color: #353333;
+    background-color: #000;
 }
 
 footer {
